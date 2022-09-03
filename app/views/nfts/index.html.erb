@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Nfts</h1>
+
+<div id="nfts">
+  <%= @nfts %>
+</div>
+
+<%= link_to "New nft contract", new_nft_path %>
+<%= link_to "Wallets", wallets_path %>
+<%= link_to "Invoices", invoices_path %>
+<%= link_to "NFT Contracts", '/nft_contracts' %>
+<%= link_to "Mint NFT", '/mint_nft', method: :post %>
+<%= link_to "Transfer NFT", '/transfer_nft' %>
